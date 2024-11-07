@@ -4,7 +4,6 @@ import { use } from 'react';
 import { useCart } from '../../components/CartProvider';
 import { useEffect, useState } from 'react';
 import { Product } from '../../types';
-import { Toast } from '../../components/ui/toast';
 import { useToast } from '../../components/ui/use-toast';
 import Image from 'next/image';
 import { Toaster } from '../../components/ui/toaster';
